@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskFlow</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body class="dark:bg-gray-950">
+    <!-- Header -->
+    <header
+      class="px-6 py-4 sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100 dark:bg-gray-900/80 dark:border-gray-700"
+    >
+      <div class="max-w-7xl mx-auto flex items-center justify-between">
+        <span class="font-bold text-gray-900 dark:text-white">TaskFlow</span>
+        <nav class="flex items-center gap-6">
+          <button class="md:hidden dark:text-white">☰</button>
+          <div class="hidden md:flex items-center gap-6">
+            <button id="theme-toggle">🌙</button>
+            <a class="text-sm text-gray-600 dark:text-gray-300">Funciones</a>
+            <a class="text-sm text-gray-600 dark:text-gray-300">Precios</a>
+            <a class="text-sm text-gray-600 dark:text-gray-300">Testimonios</a>
+            <button
+              class="bg-brand-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-brand-700 transition-all duration-200"
+            >
+              Empezar gratis
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section
+        class="py-20 text-center bg-gradient-to-b from-brand-50 to-white dark:from-gray-900 dark:to-gray-950"
+      >
+        <div class="max-w-7xl mx-auto flex flex-col items-center gap-6">
+          <span
+            class="bg-brand-50 text-brand-700 text-sm font-medium px-4 py-1 rounded-full animate-pulse"
+            >badge</span
+          >
+          <h1
+            class="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+          >
+            Titulo
+          </h1>
+          <p class="text-lg text-gray-600 max-w-2xl dark:text-gray-300">
+            descripcion
+          </p>
+          <div class="flex flex-col md:flex-row gap-4">
+            <button
+              class="bg-brand-600 text-white px-6 py-3 rounded-lg text-sm font-medium shadow-lg hover:bg-brand-700 transition-all duration-200"
+            >
+              Empezar gratis ->
+            </button>
+            <button
+              class="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg text-sm hover:bg-gray-50 transition-all duration-200 dark:text-white dark:border-gray-600 dark:hover:bg-gray-800"
+            >
+              Ver demo
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="py-20 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col items-center gap-12">
+          <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
+            titulo seccion
+          </h2>
+          <p class="text-lg text-gray-600 dark:text-gray-300">subtitulo</p>
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full"
+          >
+            <div
+              class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all duration-300 group dark:bg-gray-800 dark:border-gray-700"
+            >
+              <span
+                class="inline-block transition-transform duration-300 group-hover:scale-110"
+                >icono</span
+              >
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-2">
+                Tableros Kanban
+              </h3>
+              <p class="text-sm text-gray-600 dark:text-gray-300 mt-1">
+                descripcion
+              </p>
+            </div>
+            <div
+              class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all duration-300 group dark:bg-gray-800 dark:border-gray-700"
+            >
+              <span
+                class="inline-block transition-transform duration-300 group-hover:scale-110"
+                >icono</span
+              >
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-2">
+                Time Tracking
+              </h3>
+              <p class="text-sm text-gray-600 dark:text-gray-300 mt-1">
+                descripcion
+              </p>
+            </div>
+            <div
+              class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all duration-300 group dark:bg-gray-800 dark:border-gray-700"
+            >
+              <span
+                class="inline-block transition-transform duration-300 group-hover:scale-110"
+                >icono</span
+              >
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-2">
+                Chat integrado
+              </h3>
+              <p class="text-sm text-gray-600 dark:text-gray-300 mt-1">
+                descripcion
+              </p>
+            </div>
+            <div
+              class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all duration-300 group dark:bg-gray-800 dark:border-gray-700"
+            >
+              <span
+                class="inline-block transition-transform duration-300 group-hover:scale-110"
+                >icono</span
+              >
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-2">
+                Informes y metricas
+              </h3>
+              <p class="text-sm text-gray-600 dark:text-gray-300 mt-1">
+                descripcion
+              </p>
+            </div>
+            <div
+              class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all duration-300 group dark:bg-gray-800 dark:border-gray-700"
+            >
+              <span
+                class="inline-block transition-transform duration-300 group-hover:scale-110"
+                >icono</span
+              >
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-2">
+                Integraciones
+              </h3>
+              <p class="text-sm text-gray-600 dark:text-gray-300 mt-1">
+                descripcion
+              </p>
+            </div>
+            <div
+              class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all duration-300 group dark:bg-gray-800 dark:border-gray-700"
+            >
+              <span
+                class="inline-block transition-transform duration-300 group-hover:scale-110"
+                >icono</span
+              >
+              <h3 class="font-semibold text-gray-900 dark:text-white mt-2">
+                Seguridad avanzada
+              </h3>
+              <p class="text-sm text-gray-600 dark:text-gray-300 mt-1">
+                descripcion
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing -->
+      <section class="py-20 dark:bg-gray-950">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col items-center gap-12">
+          <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
+            Pricing
+          </h2>
+          <p class="text-lg text-gray-600 dark:text-gray-300">Subtitulo</p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+            <div
+              class="p-8 bg-white rounded-2xl shadow-sm border border-gray-100 dark:bg-gray-800 dark:border-gray-700 flex flex-col"
+            >
+              <h3 class="font-semibold text-gray-900 dark:text-white">
+                Starter
+              </h3>
+              <p class="text-sm text-gray-600 dark:text-gray-300">
+                Descripcion
+              </p>
+              <p class="text-4xl font-bold text-gray-900 my-4 dark:text-white">
+                0€/mes
+              </p>
+              <ul
+                class="text-sm text-gray-600 dark:text-gray-300 space-y-1 mb-6"
+              >
+                <li>3 proyectos</li>
+                <li>10 tareas por proyecto</li>
+                <li>1 GB almacenamiento</li>
+              </ul>
+              <button
+                class="mt-auto w-full border border-gray-300 text-gray-700 px-6 py-3 rounded-lg text-sm hover:bg-gray-50 transition-all duration-200 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700"
+              >
+                Comenzar gratis
+              </button>
+            </div>
+            <div
+              class="p-8 bg-white rounded-2xl shadow-lg border-2 border-brand-600 dark:bg-gray-800 dark:border-brand-500 relative flex flex-col"
+            >
+              <span
+                class="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand-600 text-white text-xs font-medium px-3 py-1 rounded-full"
+                >Más popular</span
+              >
+              <h3 class="font-semibold text-gray-900 dark:text-white">Pro</h3>
+              <p class="text-sm text-gray-600 dark:text-gray-300">
+                Descripcion
+              </p>
+              <p class="text-4xl font-bold text-gray-900 my-4 dark:text-white">
+                12€/mes
+              </p>
+              <ul
+                class="text-sm text-gray-600 dark:text-gray-300 space-y-1 mb-6"
+              >
+                <li>Proyectos ilimitados</li>
+                <li>Tareas ilimitadas</li>
+                <li>50 GB almacenamiento</li>
+                <li>Time tracking</li>
+                <li>Integraciones</li>
+              </ul>
+              <button
+                class="mt-auto w-full bg-brand-600 text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-brand-700 transition-all duration-200"
+              >
+                Empezar ahora
+              </button>
+            </div>
+            <div
+              class="p-8 bg-white rounded-2xl shadow-sm border border-gray-100 dark:bg-gray-800 dark:border-gray-700 flex flex-col"
+            >
+              <h3 class="font-semibold text-gray-900 dark:text-white">
+                Enterprise
+              </h3>
+              <p class="text-sm text-gray-600 dark:text-gray-300">
+                Descripcion
+              </p>
+              <p class="text-4xl font-bold text-gray-900 my-4 dark:text-white">
+                49€/mes
+              </p>
+              <ul
+                class="text-sm text-gray-600 dark:text-gray-300 space-y-1 mb-6"
+              >
+                <li>Todo en Pro</li>
+                <li>Almacenamiento ilimitado</li>
+                <li>SSO & SAML</li>
+                <li>Soporte 24/7</li>
+                <li>SLA 99.9%</li>
+              </ul>
+              <button
+                class="mt-auto w-full border border-gray-300 text-gray-700 px-6 py-3 rounded-lg text-sm hover:bg-gray-50 transition-all duration-200 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700"
+              >
+                Contactar
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonios -->
+      <section class="py-20 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col items-center gap-12">
+          <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
+            Testimonios
+          </h2>
+          <p class="text-lg text-gray-600 dark:text-gray-300">Subtitulo</p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+            <div class="p-6 bg-white rounded-xl shadow-sm dark:bg-gray-800">
+              <p class="text-gray-600 dark:text-gray-300">"Cita"</p>
+              <div class="flex items-center gap-3 mt-4">
+                <img
+                  src="https://i.pravatar.cc/40?img=1"
+                  alt="Nombre"
+                  class="rounded-full w-10 h-10"
+                />
+                <div>
+                  <p class="font-medium text-gray-900 dark:text-white">
+                    Nombre
+                  </p>
+                  <p class="text-sm text-gray-500 dark:text-gray-400">Cargo</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm dark:bg-gray-800">
+              <p class="text-gray-600 dark:text-gray-300">"Cita"</p>
+              <div class="flex items-center gap-3 mt-4">
+                <img
+                  src="https://i.pravatar.cc/40?img=2"
+                  alt="Nombre"
+                  class="rounded-full w-10 h-10"
+                />
+                <div>
+                  <p class="font-medium text-gray-900 dark:text-white">
+                    Nombre
+                  </p>
+                  <p class="text-sm text-gray-500 dark:text-gray-400">Cargo</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm dark:bg-gray-800">
+              <p class="text-gray-600 dark:text-gray-300">"Cita"</p>
+              <div class="flex items-center gap-3 mt-4">
+                <img
+                  src="https://i.pravatar.cc/40?img=3"
+                  alt="Nombre"
+                  class="rounded-full w-10 h-10"
+                />
+                <div>
+                  <p class="font-medium text-gray-900 dark:text-white">
+                    Nombre
+                  </p>
+                  <p class="text-sm text-gray-500 dark:text-gray-400">Cargo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section
+        class="py-20 bg-gradient-to-r from-brand-600 to-purple-600 text-center"
+      >
+        <div>
+          <h2 class="text-3xl font-bold text-white">Titulo</h2>
+          <p class="text-lg text-brand-100 mt-2">Subtitulo</p>
+          <div class="flex gap-3 mt-8 justify-center">
+            <input
+              class="px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/60 outline-none w-72 focus:ring-2 focus:ring-white focus:border-transparent"
+              type="email"
+              placeholder="Tu email"
+            />
+            <button
+              class="bg-white text-brand-600 px-6 py-3 rounded-lg font-medium"
+            >
+              Empezar ahora
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 px-6 py-12">
+      <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div>
+          <span class="font-bold text-white">TaskFlow</span>
+          <p class="text-gray-400 text-sm mt-2">Descripcion</p>
+        </div>
+        <div>
+          <h3 class="text-white font-semibold mb-3">Producto</h3>
+          <div class="flex flex-col gap-2">
+            <p class="text-gray-400 text-sm">Funciones</p>
+            <p class="text-gray-400 text-sm">Precios</p>
+            <p class="text-gray-400 text-sm">Integraciones</p>
+            <p class="text-gray-400 text-sm">Changelog</p>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-white font-semibold mb-3">Empresa</h3>
+          <div class="flex flex-col gap-2">
+            <p class="text-gray-400 text-sm">Sobre nosotros</p>
+            <p class="text-gray-400 text-sm">Blog</p>
+            <p class="text-gray-400 text-sm">Careers</p>
+            <p class="text-gray-400 text-sm">Contacto</p>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-white font-semibold mb-3">Legal</h3>
+          <div class="flex flex-col gap-2">
+            <p class="text-gray-400 text-sm">Privacidad</p>
+            <p class="text-gray-400 text-sm">Términos</p>
+            <p class="text-gray-400 text-sm">Cookies</p>
+          </div>
+        </div>
+      </div>
+      <hr class="border-gray-700 my-8 max-w-7xl mx-auto" />
+      <p class="text-center text-gray-400 text-sm">
+        © 2025 TaskFlow. All rights reserved.
+      </p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
